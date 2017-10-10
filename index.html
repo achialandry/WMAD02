@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Asiane</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+      <nav class="nav_top_fixed">
+        <img class="logo" src="logo/logo.png" alt="Asiane Logo">
+        <ul class="nav_items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#specialty">Specialties</a></li>
+          <li><a href="#banquet">Banquet</a></li>
+          <li><a href="#reservations">Reservations</a></li>
+          <li><a href="#contact_us_form">Contact Us</a></li>
+        </ul>
+        <!-- <img id="navbar_texture" src="texture/background.png" alt="Nav bar texture"> -->
+      </nav>
+    <section class="main_body">
+      <div class="body_content">
+        <!-- <figure class="back_ground_image">
+          <img src="images_home/img_home5.jpg" alt="Main food picture">
+        </figure> -->
+        <a class="center_button" href="#specialty">View our Menu</a>
+      </div>
+    </section>
+
+    <section id="specialty" class="specialties_body">
+      <div class="caption">
+        <h3 class="head_specialties">Our Specialties</h3>
+      </div>
+      <div class="first_group">
+        <figure id="image_specialty0">
+          <figcaption>Thai Food</figcaption>
+          <img id="food1" src="images_specialties/food1.png" alt="Specialties">
+        </figure>
+        <figure id="image_specialty1">
+          <figcaption>Chinese Food</figcaption>
+          <img id="food2" src="images_specialties/food2.png" alt="Specialties">
+        </figure>
+        <figure id="image_specialty2">
+          <figcaption>Vietnamese Food</figcaption>
+          <img id="food3" src="images_specialties/food3.png" alt="Specialties">
+        </figure>
+      </div>
+       <div class="second_group">
+        <figure id="image_specialty3">
+          <figcaption>Japanese Food</figcaption>
+          <img id="food4" src="images_specialties/food4.png" alt="Specialties">
+        </figure>
+        <figure id="image_specialty4">
+          <figcaption>Korean Food</figcaption>
+          <img id="food5" src="images_specialties/food5.png" alt="Specialties">
+        </figure>
+       <figure id="image_specialty5">
+          <figcaption>Indian Special</figcaption>
+          <img id="food6" src="images_specialties/food6.png" alt="Specialties">
+        </figure>
+      </div>
+    </section>
+
+<!--Banquet body-->
+    <section class="banquette_body">
+      <div class="caption">
+        <h3 id="banquet" class="head_banquettes">Banquet</h3>
+      </div>
+      <div class="banquette_text_group_col-1">
+        <h3>Our Banquet and Catering Services</h3>
+        <p>Situated at the base of the mountains in North Vancouver, amidst a beautiful west coast forest of firs and cedars, overlooking one of BC's great golf courses, Asiane delivers a "getaway" experience that is only 15 minutes from downtown Vancouver.</p>
+        <p>If you are organizing a wedding, a business meeting, an anniversary, or a Celebration of Life, we have a team in place that will make the entire process as stress free as it can be. </p>
+<p>We have audio-visual equipment, breakout rooms, modern furnishings, and a beautiful patio overlooking the golf course if you need to get out and breathe in the mountain air and the ocean breezes.  Give us a call and let us guide you through the process of organizing an unforgettable experience for your guests.
+
+We also specialize in custom golf tournaments and weddings.  Call Sandy Day at 604.653.2834  for more information, or email her at akwo776@gmail.com.</p>
+      </div>
+
+      <!--Banquet Column 2-->
+      <div class="banquette_text_group_col-2">
+        <!-- <h3>Image Highlights</h3> -->
+        <div class="banquet_images">
+          <div class="imageflipper">
+          <div class="side1"><img src="images_banquets/buf1.png" alt="Banquet Image "></div>
+          <div class="side2"><img src="images_banquets/buf2.png" alt="Banquet Image"></div>
+          <div class="side3"><img src="images_banquets/buf3.png" alt="Banquet Image"></div>
+          <div class="side4"><img src="images_banquets/buf4.png" alt="Banquet Image"></div>
+          <div class="side5"><img src="images_banquets/buf5.png" alt="Banquet Image"></div>
+          <div class="side6"><img src="images_banquets/buf6.png" alt="Banquet Image"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <section class="reservations_body">
+      <div class="caption">
+        <h3 id="reservations" >Table Reservation</h3>
+      </div>
+      <div class="reserve">
+      <form id="form" method="post" action="#" >
+        <div id="heading">We would be glad to reserve a table for you at Asiane!</div><br>
+        <div id="data_3_label">Name<span
+           id="data_3_label_span"><br/>
+        <input type="text" id="data_3" name="data_3" required />
+      </div><br>
+        <div id="data_4_label" >Phone<span> *</span><br/>
+        <input type="tel" id="data_4" name="data_4" required/>
+      </div><br>
+        <div id="data_10_label" >Email<span> *</span><br/>
+        <input type="email" id="data_10" name="data_10" required/>
+      </div><br>
+        <div id="data_11_label">Date<span> *</span><br/>
+        <input type="date" id="data_11" name="data_11" required />
+      </div><br>
+        <div id="data_7_label">Time<span id="data_7_label_c"> *</span><br/>
+        <input type="text" id="data_7" name="data_7" />
+      </div><br>
+        <div id="data_8_label">Number of Attendees<br/>
+        <select id="data_8" name="data_8" required >
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>10+ (Specify in Comments)</option>
+        </select>
+      </div><br>
+        <div>Comments / Additional Requests<br/>
+        <textarea  id="data_9"  name="data_9" rows="6" ></textarea>
+        </div>
+        <div id="re_submit" ><input id="re_submits" name="re_Submit" value="Submit" type="submit"/></div><br>
+        <div>
+      </form>
+      </div>
+    </section>
+
+    <section id="contact_us_form" class="contact_body">
+      <div class="caption">
+        <h3 class="contact_us">Contact Us</h3>
+      </div>
+
+      <div class="container">
+  <form id="contact" action="#" method="post">
+    <h4>Contact us today, and get reply within 24 hours!</h4>
+    <fieldset>
+      <label for="">Name</label>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <label for="">Email</label>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <label for="">Phone</label>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <label for="">City</label>
+      <input placeholder="City" type="text" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <label for="">Message</label>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" >Submit</button>
+    </fieldset>
+  </form>
+</div>
+    </section>
+
+    <footer>
+      <div class="footer-text">
+        <p>Coded with &#9829; by Landry and Edgar &#169; 2017 Asiane</p>
+        <div class="social_media">
+        <img src="social_media/twitter.png" alt="Twitter Social Media Link">
+        </div>
+        <div class="social_media_2">
+        <img src="social_media/facebook.png" alt="Facebook Social Media Link">
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
